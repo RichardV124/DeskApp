@@ -78,6 +78,21 @@ body{
     text-align: center;
 }
 
+.imagenTelegram{
+    background: url('../imagenes/Telegram.jpg');
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.segundoProducto{
+    margin-top: -355px;
+    width: 230px;
+    height: 350px;
+    margin-left: 400px;
+    border: solid #ffffff 3px;
+}
 .fondoProducto{
     background: #222222;
     margin-top: 35px;
