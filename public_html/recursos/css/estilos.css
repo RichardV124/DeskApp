@@ -59,7 +59,7 @@ body{
     height: 350px;
     /*margin-top: 10px;*/
     margin-left: 80px;
-    border: solid #ffffff 3px;
+    /*border: solid #ffffff 3px;*/
 }
 
 .imagen{
@@ -91,7 +91,7 @@ body{
     width: 230px;
     height: 350px;
     margin-left: 400px;
-    border: solid #ffffff 3px;
+    /*border: solid #ffffff 3px;*/
 }
 .fondoProducto{
     background: #222222;
