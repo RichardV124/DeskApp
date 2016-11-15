@@ -10,7 +10,6 @@ and open the template in the editor.
         <meta name="description" content="Aplicaciones de escritorio">
         <meta name="keywords" content="Your keywords">
         <meta name="author" content="Richard Vanegas, Didier Narváez, Luis Bolivar">
-        <link rel="icon" href="recursos/imagenes/logo.ico">
         <link href="recursos/css/estilos.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
         <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
@@ -81,9 +80,9 @@ and open the template in the editor.
                         <li>-Instalable hasta para 4 computadores</li>
                     </ul>
                     <p class="descripcionPromo">Obten más infomación acerca de nuestro
-                    producto</p>
+                        producto</p>
                     <div class="boton">
-                    <a class="button" href="vista/VerMas.html">Ver más</a>
+                        <a class="button" href="vista/VerMas.html">Ver más</a>
                     </div>
                 </div>
             </div>
@@ -121,17 +120,51 @@ and open the template in the editor.
             </div>
         </div>
 
-        <div id="soporte">
+        <div id="cotizacion"><br><br>
 
+            <div class="tituloSoporte">
+                <strong class="tituloCot">RECIBE UNA COTIZACIÓN</strong>
+            </div>
+            <div class="textoCot">
+                <p class="title-2">¿Estas buscando una aplicación?</p><br>
+                <p class="contenidoCot">Cuentanos acerca de la aplicación que 
+                    necesitas y te enviaremos una cotización.</p>
+            </div>
+            <div class="datosCot">
+                <input class="datos" type="text" placeholder="Nombre"/><br><br>
+                <input class="datos" type="email" placeholder="Email"/><br><br>
+                <input class="datos" type="text" placeholder="N° Telefónico"/><br><br>
+                <textarea class="textAreaDatos" placeholder="Características de la aplicación"></textarea><br><br>
+                <div class="btnEnviar">
+                    <a class="button">Enviar</a>
+                </div>
+            </div>
         </div>
 
-        <div id="quienesSomos">
-
+        <div id="quienesSomos"> <br>
+            
         </div>
 
         <div id="footer">
 
         </div>
+        
+        <script type="text/javascript"> Cufon.now(); </script>
+		<script type="text/javascript">
+			$(window).load(function() {
+				$('.slider')._TMS({
+					duration:800,
+					easing:'easeOutQuad',
+					preset:'simpleFade',
+					slideshow:3000,
+					banners:false,
+					pauseOnHover:true,
+					pagination:false,
+					nextBu:'.next',
+					prevBu:'.prev'
+				});
+			});
+		</script>
 
     </body>
 </html>

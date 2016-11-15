@@ -125,15 +125,10 @@ div.imagenPromoDia{
 
 .titulo{
     margin-top: 40px;
-    color: yellow;
+    color: #98938d;
     font-family: Hind, sans-serif;
     font-size: 25px;
     margin-left: 50px;
-}
-
-.foto{
-    border-radius: 100%;
-    margin-left: 40px;
 }
 
 .contenido{
@@ -181,8 +176,67 @@ div.imagenPromoDia{
 
 .estrellas{
     height: 15px;
-    margin-left: 400px;
+    margin-left: 80px;
     margin-top: -25px;
+}
+
+#cotizacion{
+    background: url(../imagenes/fondoProdutos.jpg);
+    width: 100%;
+    height: 500px;
+}
+
+.tituloSoporte{
+    /*margin-top: 40px;*/
+}
+
+.textoCot{
+    margin-top: 100px;
+    width: 450px;
+    height: 100px;
+    margin-left: 150px;
+}
+
+.contenidoCot{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Hind, sans-serif;
+    color: black;
+    /*text-align: center;*/
+    /*margin-left: 80px;*/ 
+}
+
+.datosCot{
+    margin-left: 900px;
+    margin-top: -160px;
+}
+
+.datos{
+    width: 350px;
+    height: 35px;
+    background: black;
+    color: white;
+}
+
+.textAreaDatos{
+    background: black;
+    color: white;
+    width: 350px;
+    height: 100px;
+    resize: none;
+}
+
+.btnEnviar{
+    margin-left: 235px;
+}
+
+.tituloCot{
+    display:block;
+    font-size:53px;
+    line-height:1.2em;
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
 }
 
 .descripcionPromo{
@@ -217,10 +271,9 @@ div.imagenPromoDia{
 }
 
 .nombres{
-    color: #0066ff;
+    color: yellow;
     font-size: 20px;
     margin-left: 70px;
-    /*text-align: center;*/
 }
 
 #soporte{
@@ -232,6 +285,15 @@ div.imagenPromoDia{
 #quienesSomos{
     width: 100%;
     height: 500px;
+}
+
+.nosotros{
+    display:block;
+    font-size:45px;
+    line-height:1.2em;
+    color: #98938d;
+    text-transform:uppercase;
+    text-align: center;
 }
 
 #footer{
@@ -420,6 +482,4 @@ div.imagenPromoDia{
 }
 #cssmenu.small-screen #menu-button.menu-opened:before {
   background: white;
-}
-    background: white;
 }
